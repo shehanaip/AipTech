@@ -1,0 +1,43 @@
+.tg{
+    padding: 20px;
+}
+.Main_nav {
+ 
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .Main_nav .logo {
+    display: block;
+    text-align: left;
+    padding-top: 4px;
+    /* padding-left: 100px; */
+    text-decoration: none;
+  }
+  
+  .Main_nav .logo img {
+    height: 90px;
+    width: 100px;
+  }
+  
+  .Main_nav .logo img:hover {
+    width: 110px;
+    transition: 1s;
+  }
+  #searchResultsContainer {
+    width: 100%; /* Ensure the container takes the full width */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Align items with space around */
+}
+
+.search_result {
+    width: 2050px; 
+    height: 400px;
+    margin: 10px; 
+}

@@ -1,0 +1,28 @@
+.Main_nav {
+ 
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #333!important;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .Main_nav .logo {
+    display: block;
+    text-align: left;
+    padding-top: 4px;
+    /* padding-left: 100px; */
+    text-decoration: none;
+  }
+  
+  .Main_nav .logo img {
+    height: 90px;
+    width: 100px;
+  }
+  
+  .Main_nav .logo img:hover {
+    width: 110px;
+    transition: 1s;
+  }

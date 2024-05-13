@@ -1,0 +1,38 @@
+.Main_nav {
+ 
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .Main_nav .logo {
+    display: block;
+    text-align: left;
+    padding-top: 4px;
+    /* padding-left: 100px; */
+    text-decoration: none;
+  }
+  
+  .Main_nav .logo img {
+    height: 90px;
+    width: 100px;
+  }
+  
+  .Main_nav .logo img:hover {
+    width: 110px;
+    transition: 1s;
+  }
+  .header{
+    background-image: url("../images/aip++-01.jpg")!important;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .power{
+    padding-top: 100px;
+    color: white;
+  }

@@ -1,0 +1,12 @@
+
+.pro h1{
+    font-size: 80px;
+    color: gray;
+  }
+  .pro h3 {
+    color: gray;
+    padding-top: 100px;
+  }
+  .pro p{
+    color: gray;
+  }

@@ -1,0 +1,19 @@
+.mover p{
+    position: absolute !important;
+    bottom: 30px;
+    color: gray !important;
+    height: 460px;
+    width: 300px;
+    background: none !important;
+    border: gray 1px solid !important;
+    padding: 40px;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+  .mover p:hover{
+    
+    width: 310px;
+    
+    transition: 1s;
+  }
+  

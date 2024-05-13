@@ -1,0 +1,51 @@
+
+.height{
+
+    height: 100vh;
+}
+
+.form{
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow:  -5px -5px 13px #5a5a5a,
+    5px 5px 13px #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.form .fa-search{
+    position: absolute;
+    top:5px;
+    color: #9ca3af;
+    padding: 15px;
+    border: none !important;
+    background: none;
+}
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    border:none;
+}
